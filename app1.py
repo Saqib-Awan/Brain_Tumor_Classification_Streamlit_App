@@ -46,16 +46,11 @@ st.markdown(
         justify-content: center;
         align-items: center;
     }
-    .title-container h1 {
+    .title-container h1, .title-container h2 {
         text-align: center;
-        font-size: 48px; /* Increase title font size */
+        font-size: 48px; /* Font size for both titles */
+        font-weight: bold; /* Boldness for both titles */
         margin: 0;
-    }
-    .title-container p {
-        text-align: center;
-        font-size: 24px; /* Font size for Web App text */
-        margin: 0;
-        color: #555; /* Optional: Set a subtle color for the text */
     }
     .author {
         text-align: center;
@@ -67,13 +62,14 @@ st.markdown(
     <div class="app-background">
         <div class="title-container">
             <h1>Brain Tumor Classification</h1>
-            <p>Web App</p>
+            <h2>Web App</h2>
         </div>
         <p class="author">By Saqib Ibrahim Hamza</p>
     </div>
     """,
     unsafe_allow_html=True
 )
+
 
 # Display logos using Streamlit's st.image
 left_logo_path = "static/images.jpg"
