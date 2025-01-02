@@ -50,7 +50,10 @@ st.markdown(
         text-align: center;
         font-size: 48px; /* Font size for both titles */
         font-weight: bold; /* Boldness for both titles */
-        margin: 0;
+        margin: 0; /* Remove default margin */
+    }
+    .title-container h2 {
+        margin-top: 5px; /* Reduce gap below 'Brain Tumor Classification' */
     }
     .author {
         text-align: center;
@@ -69,7 +72,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 
 # Display logos using Streamlit's st.image
 left_logo_path = "static/images.jpg"
