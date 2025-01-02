@@ -70,13 +70,13 @@ st.markdown(
 
 # Display logos using Streamlit's st.image
 left_logo_path = "static/images.jpg"
-right_logo_path = "static/images.jpg"
+right_logo_path = "static/images.png"
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
     st.image(left_logo_path, width=200)  # Set fixed width for left logo
 with col3:
-    st.image(right_logo_path, width=300)  # Set fixed width for right logo
+    st.image(right_logo_path, width=200)  # Set fixed width for right logo
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
