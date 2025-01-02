@@ -62,15 +62,15 @@ st.markdown(
             <h1>Brain Tumor Classification</h1>
             <div class="logo-right"></div>
         </div>
-        <p class="author">By Glodie Mpia</p>
+        <p class="author">By Saqib Ibrahim Hamza </p>
     </div>
     """,
     unsafe_allow_html=True
 )
 
 # Display logos using Streamlit's st.image
-left_logo_path = "static/air-logo.png"
-right_logo_path = "static/rcaiot-logo.png"
+left_logo_path = "static/images.jpg"
+right_logo_path = "static/images.png"
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
