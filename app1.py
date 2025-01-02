@@ -53,7 +53,7 @@ st.markdown(
         margin: 0; /* Remove default margin */
     }
     .title-container h2 {
-        margin-top: -20px; /* Significantly reduce gap below 'Brain Tumor Classification' */
+        margin-top: -40px; /* Significantly reduce gap below 'Brain Tumor Classification' */
     }
     .author {
         text-align: center;
