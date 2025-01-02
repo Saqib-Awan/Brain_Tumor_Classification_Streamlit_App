@@ -62,7 +62,7 @@ st.markdown(
             <h1>Brain Tumor Classification</h1>
             <div class="logo-right"></div>
         </div>
-        <p class="author">By Saqib Ibrahim Hamza</p>
+        <p class="author">By Saqib Ibrahim Hamza </p>
     </div>
     """,
     unsafe_allow_html=True
