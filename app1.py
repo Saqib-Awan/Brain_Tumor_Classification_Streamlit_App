@@ -42,27 +42,34 @@ st.markdown(
     }
     .title-container {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     .title-container h1 {
         text-align: center;
-        flex-grow: 1;
         font-size: 48px; /* Increase title font size */
+        margin: 0;
+    }
+    .title-container p {
+        text-align: center;
+        font-size: 24px; /* Font size for Web App text */
+        margin: 0;
+        color: #555; /* Optional: Set a subtle color for the text */
     }
     .author {
         text-align: center;
         font-size: 24px; /* Increase author font size */
         font-weight: bold;
+        margin-top: 10px;
     }
     </style>
     <div class="app-background">
         <div class="title-container">
-            <div class="logo-left"></div>
             <h1>Brain Tumor Classification</h1>
-            <div class="logo-right"></div>
+            <p>Web App</p>
         </div>
-        <p class="author">By Saqib Ibrahim Hamza </p>
+        <p class="author">By Saqib Ibrahim Hamza</p>
     </div>
     """,
     unsafe_allow_html=True
